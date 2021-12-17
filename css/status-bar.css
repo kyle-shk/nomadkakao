@@ -1,0 +1,42 @@
+/* css hack 가운데정렬 */
+.status-bar{
+    display: flex;
+    justify-content: center;
+    padding: 5px 3px;
+}
+.status-bar__column {
+    width: 33%;
+}
+.status-bar__column:nth-child(2) {
+    display:flex;
+    justify-content: center;
+}
+.status-bar__column:last-child {
+    display:flex;
+    justify-content: flex-end;
+}
+.status-bar__column .fa-battery-three-quarters{
+    margin: 0px 3px;
+}
+.status-bar__column:first-child span {
+    margin-right: 5px;
+}
+/* header */
+.welcome-header{
+    margin-top: 90px;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 600;
+}
+.welcome-header__title{
+    margin-bottom: 50px;
+    font-size: 25px;
+}
+.welcome-header__text {
+    /* 텍스트범위제한하려고씀 */
+    width: 50%;
+    opacity: 0.5;
+    margin-bottom: 90px;
+}
