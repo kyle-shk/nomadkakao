@@ -4,6 +4,7 @@
 } */
 @import 'reset.css';
 @import 'status-bar.css';
+@import 'variable.css';
 body{
    
     font-family: 'Nanum Gothic', sans-serif;
