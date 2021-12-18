@@ -4,8 +4,32 @@
     position: fixed;
     bottom:0px;
     width:100%;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(121,121,121,0.3);
 }
 .nav__list {
     display:flex;
     justify-content:space-around;
+   
+}
+.nav__link{
+    position:relative;
+    color: #2e363e;
+}
+
+
+.nav__notification{
+    background-color:red;
+    color: white;
+    width: 25px;
+    height: 25px;
+    /* display:block; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    border-radius: 50%;
+    position: absolute;
+    left:10px;
+    bottom: 5px;
 }
