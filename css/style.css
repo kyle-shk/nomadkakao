@@ -3,8 +3,12 @@
     box-sizing: content-box;
 } */
 @import 'reset.css';
-@import 'status-bar.css';
 @import 'variable.css';
+/* components */
+@import 'components/status-bar.css';
+@import 'components/nav-bar.css';
+/* screens */
+@import 'screens/login.css';
 body{
    
     font-family: 'Nanum Gothic', sans-serif;

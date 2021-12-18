@@ -5,45 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css1/style.css">
 </head>
-<style>
-    *{
-        margin: 0px;
-        box-sizing: content-box;
-    }
-    body{
-        height: 100vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        position: relative;
-    }
-    h1 {
-        position: absolute;
-        top: 100px;
-    }
-    p{
-        position:absolute;
-        top: 170px;
-        text-align: center;
-    }
-    form {
-        position: absolute;
-        top: 240px;
-        
-        border-top: none;
-    }
-</style>
 <body>
-    <h1>Welcom to KakaoTalk</h1>
-    <p>if you have a Kakao Account,<br>log in with your email or phone number.</p>
-    <form action="">
-        <input type="text" placeholder="Email or phone number"><br>
-        <input type="passowrd" placeholder='Password'>
-    </form>
-    <button>Log in</button>
-    <button>Sign Up</button>
-    Find Kakao Account or Password
+   <div class='status-bar'>
+       <div class="status-bar__column">
+           <span>No service</span>
+           <i class="fas fa-wifi"></i>
+       </div>
+       <div class="status-bar__column">
+           <span>21:09</span>
+       </div>
+       <div class="status-bar__column">
+           <span>99%</span>
+           <i class="fas fa-battery-three-quarters"></i>
+           <i class="fas fa-bolt"></i>
+       </div>
+   </div>
+   <header class="title-header">
+       <h1>Welcome to KokoaClone</h1>
+       <p>노마드코더 코코아 클론 연습 하지만 이제는 우리가 헤어져야할시간 다음에 다시만나요</p>
+   </header>
+   <form action="#" id="title-form">
+       <input type="text" placeholder='Email or phone number'>
+       <input type="password" placeholder='Password'>
+       <input type="submit" value='Log in'>
+       <p>Find Kokoa Account or Password</p>
+   </form>
+   <script src="https://kit.fontawesome.com/9812235979.js" crossorigin="anonymous"></script>
 </body>
 </html>
