@@ -8,9 +8,10 @@
 @import 'components/status-bar.css';
 @import 'components/nav-bar.css';
 @import 'components/screen-header.css';
+@import 'components/user-components.css';
 /* screens */
 @import 'screens/login.css';
-@import 'screens/fiends.css';
+@import 'screens/friends.css';
 body{
     font-family: 'Nanum Gothic', sans-serif;
     color: #2e363e;
