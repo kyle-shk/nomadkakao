@@ -22,13 +22,12 @@
     left: 10px;
     border: 1px red solid;
     display: block;
-    width:20px;
-    height: 20px;
+    width:22px;
+    height:22px;
     background-color: green;
     color: white;
     border-radius: 50%;
     text-align: center;
     top: -10px;
- 
-   
+    font-size: 20px;
 }

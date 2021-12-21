@@ -36,10 +36,13 @@
 }
 .friends-main__channel {
     margin-bottom: 10px;
-    border-top: 1px solid black;
+    border-top: 1px solid rgba(0,0,0,0.1);
     padding: 10px 0px;
 }
 .friends-main-span {
     font-size: 30px;
     margin-right: 10px;
+}
+.friends-main-screen:last-child .friends-main__column:first-child .friends-main-screen__text{
+    color: rgba(0,0,0,0.6);
 }
