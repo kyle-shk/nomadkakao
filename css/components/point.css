@@ -1,0 +1,11 @@
+.point{
+    border: 1px solid red;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    color: red;
+    background-color: red;
+    position: absolute;
+    right:20px;
+    top:50px;
+}
