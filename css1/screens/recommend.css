@@ -1,15 +1,18 @@
 .recommend{
-    margin-top: 20px;
-    border-top: var(--border);
-    border-bottom: var(--border);
+    /* border-bottom: var(--border); */
     padding:120px;
     text-align: center;
     font-size: 30px;
     position:relative;
+    background-color: #f4f4f4;
+    
 }
 .recommend .recommend__title {
     position:absolute;
     left: 10px;
     top: 15px;
     left: 20px;
+}
+.header {
+    background-color: #fae100;
 }

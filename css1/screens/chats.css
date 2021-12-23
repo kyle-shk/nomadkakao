@@ -3,9 +3,9 @@
     font-size: 20px;
    
 }
-.friends-main-screen {
+/* .friends-main-screen {
     padding:var(--padding-left)
-}
+} */
 .friends-main-screen .friends-main__column:last-child {
     display:flex;
     flex-direction: column;

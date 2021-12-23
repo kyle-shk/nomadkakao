@@ -1,0 +1,18 @@
+.opacity {
+    opacity: 0;
+}
+.icon-row__icons {
+    width:70px;
+}
+
+.main1 {
+    padding: 0px;
+    padding-bottom: 20px;
+}
+.suggestion {
+    border-top: 1px solid rgba(0,0,0,0.2);
+    padding-top: 15px;
+}
+.suggestion__title{
+    margin-bottom: 20px;
+}

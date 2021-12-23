@@ -13,6 +13,7 @@
 @import 'variables.css';
 @import 'screens/recommend.css';
 @import 'screens/openchat.css';
+@import 'screens/more.css';
 * {
    
     margin: 0px;
