@@ -4,7 +4,7 @@
    
 }
 .friends-main-screen {
-    padding:0px 25px;
+    padding:var(--padding-left)
 }
 .friends-main-screen .friends-main__column:last-child {
     display:flex;

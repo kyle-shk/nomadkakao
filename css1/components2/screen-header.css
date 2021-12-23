@@ -12,3 +12,6 @@
     margin-left: 20px;
     color: rgba(0,0,0,0.7);
 }
+.screen-header__icon span:last-child img{
+    position:relative;
+}

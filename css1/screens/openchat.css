@@ -1,0 +1,68 @@
+.openchat__content{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.openchat__header{
+    display:flex;
+    justify-content:space-between;
+    font-size: 22px;
+    margin-top: 10px;
+    color: rgba(0,0,0,0.2);
+    padding: 0px 10px;
+    margin-bottom: 20px;
+}
+.openchat__header--right {
+    display:flex;
+    align-items: center;
+}
+.openchat__header--right i {
+    margin-left: 3px;
+    font-size: 15px;
+}
+.openchat__content__left--bottom img {
+    width: 15px;
+    height:15px;
+}
+.openchat__content__left--bottom-content::after {
+    width: 1px;
+    height: 0.5px;
+    color: rgba(0,0,0,0.4);
+    background-color: rgba(0,0,0,0.4);
+    content:'';
+    margin: 0px 1px;
+    padding:0px 1px;
+    
+}
+.openchat__content__left--bottom {
+    display:flex;
+    align-items: center;
+}
+.openchat__content__left{
+    padding: 0px 10px;
+    /* line-height: 150%; */
+}
+.openchat__content__left--bottom-content{
+    padding: 0px 5px;
+}
+.openchat__content__left--bottom-content2 {
+    color: pink;
+}
+.openchat__content__right img{
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+}
+.openchat__content__right{
+    position: relative;
+}
+.openchat__content--banner{
+    position: absolute;
+    right:10px;
+    border: 1px solid black;
+    background-color: blue;
+    color: white;
+    top: 80px;
+    border-radius: 5px;
+}

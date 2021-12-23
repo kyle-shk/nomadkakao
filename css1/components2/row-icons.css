@@ -1,0 +1,17 @@
+.icon-row{
+    display: flex;
+    justify-content: space-between;
+    padding:var(--padding-left);
+}
+.icon-row__icons__icon{
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    align-items: center;
+    
+}
+.icon-row__icons__icon i{
+    display:block;
+    font-size: 35px;
+    margin-bottom: 20px;
+}

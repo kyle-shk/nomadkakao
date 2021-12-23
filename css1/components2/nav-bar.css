@@ -19,7 +19,7 @@
 
 .nav__notification{
     position: absolute;
-    left: 10px;
+    left: 18px;
     border: 1px red solid;
     display: block;
     width:22px;
@@ -28,6 +28,9 @@
     color: white;
     border-radius: 50%;
     text-align: center;
-    top: -10px;
+    top: -18px;
     font-size: 20px;
+}
+.nav__link i {
+    font-size: 30px;
 }
