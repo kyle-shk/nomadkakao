@@ -2,7 +2,7 @@
     padding:var(--padding-left);
     margin-bottom: 15px;
     display:flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content:center;
 }
 .alt-header__column{
@@ -13,9 +13,9 @@
     font-size: 32px;
     font-weight: 600;
 }
-.alt-header__column:first-child{
-    /* margin-right: auto; */
-}
+/* .alt-header__column:first-child{
+    margin-right: auto;
+} */
 .alt-header__column:nth-child(2) {
     display: flex;
     justify-content:center
