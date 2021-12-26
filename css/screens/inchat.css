@@ -1,0 +1,9 @@
+#chat-screen{
+    background-color: aqua;
+    
+}
+#chat-screen .alt-header{
+    position:fixed;
+    width:100%;
+    box-sizing: border-box;
+}
